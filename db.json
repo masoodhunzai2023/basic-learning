@@ -11,18 +11,7 @@
       "description": "rtytui",
       "quantity": 89,
       "unitPrice": 67890
-    },
-    {
-      "id": "123",
-      "description": "hello",
-      "quantity": 222,
-      "unitPrice": 21212
-    },
-    {
-      "id": "1212",
-      "description": "HELLO",
-      "quantity": 21,
-      "unitPrice": 2000
     }
+  
   ]
 }
