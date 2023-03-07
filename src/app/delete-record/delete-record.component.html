@@ -1,0 +1,17 @@
+<div>
+    <h1>Delete Data</h1>
+  
+    <form [formGroup]="deleteRecord" (ngSubmit)="onDelete()">
+      <input
+      type="text"
+      pattern="^0*[1-9]\d*$"
+        formControlName="id"
+        oninput="this.value=Math.abs(this.value)"
+        placeholder="Enter Id"
+      />
+      <br />
+      <span id="error" *ngIf="id && id.invalid && id.touched">*Invalid Id</span>
+      <br />
+      <button class="btn" [disabled]="deleteRecord.invalid">Delete</button>
+    </form>
+  </div>
